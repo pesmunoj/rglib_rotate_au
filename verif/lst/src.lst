@@ -1,0 +1,15 @@
+../../verif/common/if/*.sv
+../../verif/src/uvm/if/*.sv
+
+../../verif/common/uvm/reset_agent/*pkg.sv
+
+
+../../verif/src/uvm/config/rglib_rotate_config.sv
+../../verif/src/uvm/rglib_rotate_tb_typedefs.sv
+../../verif/src/uvm/env/rglib_rotate_agent/*pkg.sv
+
+../../verif/src/uvm/cov/rglib_rotate_tb_coverage_sva.sv
+
+../../verif/src/uvm/env/rglib_rotate_tb_pkg.sv
+
+../../verif/src/uvm/rglib_rotate_tb_top.sv

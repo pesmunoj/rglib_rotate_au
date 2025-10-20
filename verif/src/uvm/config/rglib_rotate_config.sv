@@ -1,0 +1,29 @@
+// Define default values for all parameters
+`ifndef RGLIB_ROTATE_DATA_WIDTH
+  `define RGLIB_ROTATE_DATA_WIDTH 32
+`endif
+
+`ifndef RGLIB_ROTATE_POW_GRANULARITY
+  `define RGLIB_ROTATE_POW_GRANULARITY 1
+`endif
+
+`ifndef RGLIB_ROTATE_ROTATE_STAGE_NUM
+  `define RGLIB_ROTATE_ROTATE_STAGE_NUM 3
+`endif
+
+`ifndef RGLIB_ROTATE_ROTATE_DIRECTION
+  `define RGLIB_ROTATE_ROTATE_DIRECTION "RIGHT"
+`endif
+
+`ifndef RGLIB_ROTATE_OUT_REG
+  `define RGLIB_ROTATE_OUT_REG "FALSE"
+`endif
+
+
+package rglib_rotate_params_pkg;
+        parameter RGLIB_ROTATE_DATA_WIDTH       = `RGLIB_ROTATE_DATA_WIDTH;
+        parameter RGLIB_ROTATE_POW_GRANULARITY  = `RGLIB_ROTATE_POW_GRANULARITY;
+        parameter RGLIB_ROTATE_ROTATE_STAGE_NUM = `RGLIB_ROTATE_ROTATE_STAGE_NUM;
+        parameter RGLIB_ROTATE_ROTATE_DIRECTION = `RGLIB_ROTATE_ROTATE_DIRECTION;
+        parameter RGLIB_ROTATE_OUT_REG          = `RGLIB_ROTATE_OUT_REG;
+endpackage
